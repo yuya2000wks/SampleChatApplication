@@ -19,7 +19,7 @@ class MainFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
-        // TODO: ViewModel 使用予定
+        // TODO: ViewModelを使用予定
     }
 
     override fun onCreateView(
