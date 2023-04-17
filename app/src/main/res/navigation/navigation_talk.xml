@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_talk"
+    app:startDestination="@id/talk">
+
+    <fragment
+        android:id="@+id/talk"
+        android:name="com.example.samplechatapplication.fragment.FriendSearchFragment">
+        <action
+            android:id="@+id/homeToFriendSearch"
+            app:destination="@id/friendSearch" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/friendSearch"
+        android:name="com.example.samplechatapplication.fragment.FriendSearchFragment" />
+
+</navigation>
